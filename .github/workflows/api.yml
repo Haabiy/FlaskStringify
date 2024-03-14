@@ -22,4 +22,6 @@ jobs:
 
     # Build Docker image
     - name: Build Docker image
-      run: docker build -t my-api-test .
+      run: |
+        cd Python/api  # Navigate to the directory containing the Dockerfile
+        docker build -t my-api-test .
