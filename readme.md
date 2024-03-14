@@ -2,30 +2,45 @@
 
 This repository contains a simple Python API built with Flask. The API provides endpoints for cleaning strings by removing 'NULL' values and reversing substrings.
 
+## Structure
+
+├── Python
+│   └── api
+│       ├── Dockerfile
+│       ├── api.py
+│       ├── requirements.txt
+│       ├── run.sh
+│       ├── simple_python
+│       │   ├── __init__.py
+│       │   ├── src.py
+│       │   └── tests.py
+│       └── tests.py
+└── readme.md
+
 ## Usage
 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/simple-python-api.git
+   git clone https://github.com/Haabiy/FlaskStringify.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd simple-python-api
+   cd Python/api
    ```
 
 3. Install dependencies using pip:
 
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 4. Run the Flask application:
 
    ```bash
-   python3 app.py
+   python3 api.py
    ```
 
 5. Send a POST request to the `/clean_string` endpoint with a JSON payload containing the string to clean:
@@ -36,7 +51,7 @@ This repository contains a simple Python API built with Flask. The API provides 
    }
    ```
 
-6. The API will respond with the cleaned string:
+6. The API will respond with the cleaned string and reverse it:
 
    ```json
    {
