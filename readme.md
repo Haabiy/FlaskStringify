@@ -1,4 +1,8 @@
-# Simple Python API
+## Description:
+
+FlaskStringify is a Flask-based API designed for string processing tasks. It currently provides basic functionalities for manipulating and transforming strings. However, it's designed to be extensible, allowing for the addition of more advanced functionalities based on user needs and preferences.
+
+## Simple Python API
 
 This repository contains a simple Python API built with Flask. The API provides endpoints for cleaning strings by removing 'NULL' values and reversing substrings.
 
@@ -97,4 +101,3 @@ This script builds the Docker image and runs a container with the Flask app.
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ---
-
