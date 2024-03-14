@@ -1,7 +1,3 @@
-Here's a summary of the contents you provided for the README.md file:
-
----
-
 # Simple Python API
 
 This repository contains a simple Python API built with Flask. The API provides endpoints for cleaning strings by removing 'NULL' values and reversing substrings.
@@ -29,7 +25,7 @@ This repository contains a simple Python API built with Flask. The API provides 
 4. Run the Flask application:
 
    ```bash
-   python app.py
+   python3 app.py
    ```
 
 5. Send a POST request to the `/clean_string` endpoint with a JSON payload containing the string to clean:
@@ -53,7 +49,7 @@ This repository contains a simple Python API built with Flask. The API provides 
 This project includes unit tests for the API endpoints. To run the tests:
 
 ```bash
-python -m unittest
+python3 -m unittest
 ```
 
 ## Docker
