@@ -4,6 +4,7 @@ This repository contains a simple Python API built with Flask. The API provides 
 
 ## Structure
 ```
+
 ├── Python
 │   └── api
 │       ├── Dockerfile
@@ -16,6 +17,7 @@ This repository contains a simple Python API built with Flask. The API provides 
 │       │   └── tests.py
 │       └── tests.py
 └── readme.md
+
 ```
 
 ## Usage
@@ -67,6 +69,11 @@ This project includes unit tests for the API endpoints. To run the tests:
 ```bash
 python3 -m unittest
 ```
+or 
+
+```bash
+python3 unitTest.py
+```
 
 ## Docker
 
@@ -81,8 +88,9 @@ This script builds the Docker image and runs a container with the Flask app.
 ## Structure
 
 - `api/`: Contains the Flask application code.
-- `src/`: Contains the source code for the functions to clean strings and find missing numbers.
-- `test/`: Contains unit tests for the API endpoints.
+- `src.py`: Contains the source code for the functions to clean strings and find missing numbers.
+- `tests.py`: Contains the test code for the functions in `src.py`
+- `unitTest.py`: Contains unit tests for the API endpoints.
 
 ## Contributing
 
