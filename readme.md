@@ -3,7 +3,7 @@
 This repository contains a simple Python API built with Flask. The API provides endpoints for cleaning strings by removing 'NULL' values and reversing substrings.
 
 ## Structure
-
+```
 ├── Python
 │   └── api
 │       ├── Dockerfile
@@ -16,6 +16,7 @@ This repository contains a simple Python API built with Flask. The API provides 
 │       │   └── tests.py
 │       └── tests.py
 └── readme.md
+```
 
 ## Usage
 
